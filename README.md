@@ -25,7 +25,7 @@ There is no end_of_string character like C in Java. By returning an nginx string
 
 **Q: Why do you have these large functions kept in .h file, not in .cpp file?  It's not good to inline large function.**
 
-Just for convenience. A modern c++ compile will can whether to inline a function and make good choice.
+Just for convenience. A modern c++ compile can tell whether to inline a function and make a  good choice.
 
 **Q: Will you write a native c++ templates interpreter?**
 
