@@ -9,7 +9,7 @@ It calls the official java interpreter from a jar ball through java jni interfac
 <pre><code># Non-members may check out a read-only working copy anonymously over HTTP.
 svn checkout http://closure-templates.googlecode.com/svn/trunk/ closure-templates-read-only</code></pre>
 1. Modify build.xml to pack the template files, global parameters file and SoyHandler.java with closure-templates' stuff into the final jar ball.
-1. Modify three macro in <code>src/cpp/soy_handler.h</code>:
+1. Modify three macros in <code>src/cpp/soy_handler.h</code>:
 <pre><code>MAPX_SOY_JAR_FILE
 MAPX_RESOURCE_NAMESPACE
 MAPX_SOYHANDLER_IN_JAR</code></pre>
