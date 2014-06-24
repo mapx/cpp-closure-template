@@ -56,7 +56,7 @@ public final class SoyHandler {
    */
   public SoyHandler(String resNamespace) throws IOException {
     String dir = resNamespace + "/templates";
-    SoyFileSet.Builder sfsBuilder = new SoyFileSet.Builder();
+    SoyFileSet.Builder sfsBuilder = SoyFileSet.builder();
     String jar = SoyHandler.class.getProtectionDomain().getCodeSource().getLocation().getFile();
     JarFile jf = new JarFile(jar);
     Enumeration<JarEntry> es = jf.entries();
