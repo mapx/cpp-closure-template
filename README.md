@@ -1,6 +1,6 @@
-# cpp-closure-template
+# cpp-closure-templates
 
-Google Closure Templates' c++ adapter.
+Google Closure Templates' C++ adapter.
 
 It calls the official java interpreter from a jar ball through java jni interface.
 
